@@ -1,0 +1,315 @@
+* { list-style: none;
+    margin:0; padding:0; 
+    text-decoration: none; /* 밑줄 제거 */ 
+    color: inherit;        /* 부모 색상 따라감 */
+  }
+
+header { text-align: center; }
+header img { margin-right: 10px;}
+header h1 { color:blue; position: absolute; left:192px;  top:40px; height:56px; line-height: 56px; }
+
+
+header .lnb2 { position:absolute; right:192px; top:40px;}
+
+header .lnb { margin-top: 40px;}
+header li { display : inline-block; }
+header li a { display : block; padding:0 40px; height:56px; line-height: 56px;}
+
+header .lnb2 li:last-child { background-color: blue; color:white; border-radius: 10%;}
+
+.header_car { display: flex; margin-top: 100px; gap: 150px;
+ position: relative; left: 280px;   }
+
+.header_car h2 { font-size: 48px;}
+.header_car h3 { font-size: 18px;}
+.header_car_sub1 h3 {margin-top: 40px;}
+.header_car_sub1 img { margin-top: 40px; }
+
+.header_list_menu {
+   max-width: calc(100% - 700px); /* 좌우 160px씩 = 총 320px 빼기 */
+  margin: 0 auto;               /* 가로 가운데 정렬 */
+  background: #f2f2f2;          /* 배경 색은 확인용 */
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  
+   }
+  
+
+.img-left {
+  float: left;
+  position: relative;
+  bottom: 31px;
+  
+}
+
+.text-box h2 {
+  margin: 0; /* 기본 여백 제거 */
+}
+  
+.header_car_sub1 .text-box h2 {
+  font-size: 14px;
+}
+
+.text-box { 
+  margin-left: 50px;
+  width:200px;
+ text-align: left;
+}
+
+.header_car_sub1_search { 
+  background-color: blue; 
+  padding:10px 50px;
+  color: white;
+  border-radius: 1em;
+}
+
+main { text-align:  center; margin-top: 132px;}
+
+.main_block1 { 
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap:200px;
+}
+
+.main_block1 .block1_sub_img {
+  background-color: #ECF5FF;
+  padding: 30px;
+}
+
+main .main_h2 {
+  display: inline-block;
+  color: #1572D3;
+  background-color: #e6fbf4;
+  padding: 5px 40px;
+}
+
+/* logo */
+
+ .slider-container {
+  margin-top: 160px;
+    margin-left:  350px;
+    width: 1200px; /* 원하는 슬라이더 너비 */
+    overflow: hidden;
+    
+  }
+
+  .slider-track {
+    display: flex;
+    gap:100px;
+    animation: none;
+  }
+
+  .slider-track img {
+    
+    margin-right: 20px;
+    flex-shrink: 0;
+    transition: transform 3.9s;
+  }
+
+  .slider-container:hover .slider-track {
+    animation: slide 5s linear infinite;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .main_car_detail {
+    justify-content: center; 
+    margin-top: 220px;
+    display: flex;
+    gap:120px;
+  }
+
+  .audi_datil {
+    text-align: left;
+  }
+
+  .main_car_detail_sub {
+    margin-top: 30px;
+  }
+
+  .car-img-left {
+  float: left;
+  position: relative;
+  top:28px;
+
+  }
+
+    .main_car_text-box { 
+  margin-left: 50px;
+  margin-top: 12px;
+ 
+}
+
+.audi_img {
+  position: relative;
+  top:50px;
+
+}
+
+.audi_datil_why {
+  display: inline-block;
+  color: #1572D3;
+  background-color: #e5f7f1;
+  padding: 5px 40px;
+}
+
+.main_car_list {
+  margin-top:200px;
+}
+
+.list_title { 
+  font-size: 38px;
+}
+
+.car_list_M { 
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:0px;
+  margin-top: 100px;
+
+  
+  
+}
+
+
+
+.inline_p {
+  display: flex;
+  justify-content: center; /* 가운데 배치 */
+  
+}
+
+.inline_p2 {
+  display: flex;
+  justify-content: center; /* 가운데 배치 */
+  
+  
+}
+
+.inner2 {
+  display: flex;
+  width: 300px;
+  gap: 100px;                    /* img와 p 사이 간격 */
+}
+   
+
+
+.inner {
+  display: flex;
+  justify-content: flex-start; /* 내부 아이템들을 왼쪽 정렬 */
+  align-items: center;
+  gap: 8px;                    /* img와 p 사이 간격 */
+  width: 300px;                /* 고정 또는 원하는 너비 지정 */
+  margin-top: 5px;
+   
+}
+
+.car_list_M_name {
+  
+  position: relative;
+  right: 80px;
+   
+}
+
+.line_hr {
+  width:235px;
+  position: relative;
+  right:27px;
+  display: inline-block;
+}
+
+.Showallvehicles {
+  margin-top: 120px;
+  
+}
+
+.Showallvehicles p {
+  display: inline-block;
+  background-color: #f1efef;
+  padding: 20px;
+  border-radius: 2dvh;
+}
+
+
+.main_download {
+  margin-top: 120px; 
+}
+
+.download_block {
+  display: flex;
+  justify-content: center;
+  gap:200px;
+}
+
+.block1 {
+  text-align: left;
+}
+
+.down_p1 {
+  font-size: 14px;
+  background-color: #1572D3;
+  padding : 10px 30px;
+  display: inline-block;
+  border-radius: 10dvh;
+  color: #e5f7f1;
+}
+
+.down_p2 {
+  font-size: 48px;
+}
+
+.down_p2 span {
+  color:#5555e3;
+}
+
+.down_p3 {
+  font-size: 16px;
+}
+
+.down_img {
+  width:174px;
+  height:51px;
+}
+
+.down_img_m {
+  margin-top: 40px;
+}
+
+.down_block {
+  position: relative;
+  top:5px;
+}
+
+.footer_m{
+  padding:30px;
+  background-color: #10355c;
+  width:100%;
+  height:250px;
+  display: flex;
+  justify-content: center;
+  gap:100px;
+  
+}
+
+.footer_m p {
+  margin-bottom: 10px;
+}
+
+.footer_m *  {
+  color:white;
+}
+
+.foot_ul {
+  display: flex;
+  gap:10px;
+}
